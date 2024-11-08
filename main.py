@@ -2,17 +2,17 @@ import numpy as np
 import random
 import utils
 
-training_image_path = "mnist/train-images.idx3-ubyte"
+training_image_path = "data/train-images.idx3-ubyte"
 training_images = utils.read_idx_images(training_image_path)
 
-training_label_path = "mnist/train-labels.idx1-ubyte"
+training_label_path = "data/train-labels.idx1-ubyte"
 training_labels = utils.read_idx_labels(training_label_path)
 
 
-test_image_path = "mnist/t10k-images.idx3-ubyte"
+test_image_path = "data/t10k-images.idx3-ubyte"
 test_images = utils.read_idx_images(test_image_path)
 
-test_label_path = "mnist/t10k-labels.idx1-ubyte"
+test_label_path = "data/t10k-labels.idx1-ubyte"
 test_labels = utils.read_idx_labels(test_label_path)
 
 
